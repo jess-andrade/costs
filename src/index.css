@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Tilt+Neon&display=swap');
+
+:root {
+  --light-purple: rgb(206, 180, 226);
+  --dark-purple: rgb(83, 43, 109);
+  --dark: rgb(25, 3, 41);
+  --backgound: rgb(24, 23, 23);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Caveat', cursive;
+  font-family: 'Tilt Neon', cursive;
+  background-color: var(--backgound);
+  color: white;
+}
+
+button {
+  cursor: pointer;
 }
